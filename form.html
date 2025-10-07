@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ფორმა</title>
+  </head>
+  <body style="background-color: #b43757">
+    <br /><br />
+    <h2 align="center" style="color: aliceblue">სარეგისტრაციო ფორმა:</h2>
+    <div align="center" style="color: aliceblue">
+      <form action="./registration.html">
+        <br /><br />
+        <label for="name">სახელი:</label>
+        <input type="text" id="name" name="სახელი" required />
+        <br /><br /><br />
+        <label for="surname">გვარი:</label>
+        <input type="text" id="surname" name="გვარი" required />
+        <br /><br /><br />
+        <label for="number">ტელეფონის ნომერი:</label>
+        <input type="text" id="number" name="ტელეფონის ნომერი" required />
+        <br /><br /><br />
+        <label for="email">ელ.ფოსტა:</label>
+        <input type="email" id="email" name="ელფოსტა" required />
+        <br /><br /><br />
+        <label for="age">ასაკი:</label>
+        <input
+          type="number"
+          name="age"
+          id="age"
+          min="15"
+          placeholder="მინიმუმ 15 წლის"
+        />
+        <br /><br /><br />
+        <label for="female">მდედრობითი</label>
+        <input type="radio" name="radio" id="female" />
+        <br /><br />
+        <label for="male">მამრობითი</label>
+        <input type="radio" name="radio" id="male" />
+        <br /><br /><br />
+        <label for="pirobebi"
+          >ეთანხმებით თუ არა კონტაქტს ტელეფონის ნომრით და ელ.ფოსტით?</label
+        >
+        <input type="checkbox" id="pirobebi" required />
+        <br /><br /><br />
+        <input type="reset" value="ხელახლა დაწყება" />
+        &nbsp;&nbsp;<input type="submit" value="დადასტურება" />
+      </form>
+    </div>
+  </body>
+</html>
